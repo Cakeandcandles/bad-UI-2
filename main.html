@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terrible UI 2</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1 id="header">Welcome to the database!</h1>
+    <h2 class="instructions">Enter your <span id="first-info">password</span>:</h2>
+    <div id="top">
+        <input type="text" placeholder="username" id="username"/><button id="username-button">Enter</button>
+        </div>
+        <div class="bad-msg">
+        <p id="user-length"></p><br>
+        <p id="user-num"></p><br>
+        <p id="user-has-e"></p>
+        </div>
+    </div>
+    <h2 class="instructions">Enter your <span id="second-info">username</span>:</h2>
+   <div id="bottom">
+    <input type="password" placeholder="password" id="password"/><button id="password-button">Enter</button>
+    </div>
+    <div class="bad-msg">
+    <p id="pass-length"></p><br>
+    <p id="pass-num"></p><br>
+    <p id="pass-has-e"></p>
+    </div>
+   <div id="end">
+    <button id="submit" disabled>Submit</button>
+   </div>
+
+<script src="main.js"></script>
+</body>
+</html>
